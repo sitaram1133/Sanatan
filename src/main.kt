@@ -1,4 +1,10 @@
-fun main()
+fun main(args: Array<String>)
 {
-    print("Akshay")
+    var name:String =""
+    display(name)
+}
+
+fun display(name:String) {
+    var name:String="Akshay"
+    print(name)
 }
